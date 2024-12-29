@@ -110,7 +110,7 @@ export class CardsLayout extends BaseLayout<ICardsLayoutProperties> {
 
         const { PropertyFieldToggleWithCallout } = await import(
             /* webpackChunkName: 'pnp-modern-search-results-cards-layout' */
-            '@pnp/spfx-property-controls/lib/PropertyFieldToggleWithCallout'
+            '@pnp/spfx-property-controls'
         );
 
         const { CalloutTriggers } = await import(

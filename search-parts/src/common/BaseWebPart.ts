@@ -10,7 +10,7 @@ import { IBaseWebPartProps } from "../models/common/IBaseWebPartProps";
 import * as commonStrings from 'CommonStrings';
 import { ThemeProvider, IReadonlyTheme, ThemeChangedEventArgs } from '@microsoft/sp-component-base';
 import { isEqual } from '@microsoft/sp-lodash-subset';
-import { PropertyPaneWebPartInformation } from '@pnp/spfx-property-controls/lib/PropertyPaneWebPartInformation';
+import { PropertyPaneWebPartInformation } from '@pnp/spfx-property-controls';
 import { Log } from '@microsoft/sp-core-library';
 
 /**

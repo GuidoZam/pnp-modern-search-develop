@@ -191,7 +191,7 @@ export class SharePointSearchDataSource extends BaseDataSource<ISharePointSearch
 
             const { PropertyPaneWebPartInformation } = await import(
                 /* webpackChunkName: 'pnp-modern-search-property-pane' */
-                '@pnp/spfx-property-controls/lib/PropertyPaneWebPartInformation'
+                '@pnp/spfx-property-controls'
             );
 
             this._propertyFieldCollectionData = PropertyFieldCollectionData;

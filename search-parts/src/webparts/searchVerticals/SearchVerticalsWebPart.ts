@@ -320,7 +320,7 @@ export default class DataVerticalsWebPart extends BaseWebPart<ISearchVerticalsWe
 
         const { PropertyPanePropertyEditor } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyPanePropertyEditor'
+            '@pnp/spfx-property-controls'
         );
 
         this._propertyPanePropertyEditor = PropertyPanePropertyEditor;

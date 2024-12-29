@@ -322,7 +322,7 @@ export default class SearchBoxWebPart extends BaseWebPart<ISearchBoxWebPartProps
 
         const { PropertyPanePropertyEditor } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyPanePropertyEditor'
+            '@pnp/spfx-property-controls'
         );
         this._propertyPanePropertyEditor = PropertyPanePropertyEditor;
     }

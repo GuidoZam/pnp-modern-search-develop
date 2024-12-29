@@ -76,7 +76,7 @@ export class PeopleLayout extends BaseLayout<IPeopleLayoutProperties> {
 
         const { PropertyFieldToggleWithCallout } = await import(
             /* webpackChunkName: 'pnp-modern-search-results-people-layout' */
-            '@pnp/spfx-property-controls/lib/PropertyFieldToggleWithCallout'
+            '@pnp/spfx-property-controls'
         );
 
         const { CalloutTriggers } = await import(

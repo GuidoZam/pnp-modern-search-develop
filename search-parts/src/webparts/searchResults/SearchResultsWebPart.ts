@@ -1040,12 +1040,12 @@ export default class SearchResultsWebPart extends BaseWebPart<ISearchResultsWebP
 
         const { PropertyFieldToggleWithCallout } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyFieldToggleWithCallout'
+            '@pnp/spfx-property-controls'
         );
 
         const { PropertyPaneWebPartInformation } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyPaneWebPartInformation'
+            '@pnp/spfx-property-controls'
         );
 
         this._propertyPaneWebPartInformation = PropertyPaneWebPartInformation;
@@ -1057,12 +1057,12 @@ export default class SearchResultsWebPart extends BaseWebPart<ISearchResultsWebP
 
         const { PropertyFieldNumber } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyFieldNumber'
+            '@pnp/spfx-property-controls'
         );
 
         const { PropertyPanePropertyEditor } = await import(
             /* webpackChunkName: 'pnp-modern-search-property-pane' */
-            '@pnp/spfx-property-controls/lib/PropertyPanePropertyEditor'
+            '@pnp/spfx-property-controls'
         );
         this._propertyPanePropertyEditor = PropertyPanePropertyEditor;
 
